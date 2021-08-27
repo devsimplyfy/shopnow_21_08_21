@@ -293,8 +293,9 @@ public class shopnow_promocode_delete implements RequestHandler<JSONObject, JSON
 				logger.log("Exception" + e.toString());
 			}
 		}
+		//return the result
 		return jsonObjectFinalResult;
-
+		
 	}
 
 }
